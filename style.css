@@ -1,0 +1,46 @@
+#header {
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: auto;
+}
+#about {
+    background-color: rgb(166, 166, 166);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#news {
+    height: 60%;
+    width: 60%;
+}
+#screen {
+    height: 40%;
+    width: 40%;
+}
+#main {
+    background-color: rgb(112, 112, 112);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+#footer {
+    background-color: rgb(71, 71, 71);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;   
+}
+img {
+    width: 20%;
+    height: 20%;
+}
