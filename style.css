@@ -40,6 +40,22 @@
     align-items: center;
     height: auto;   
 }
+#buttonj {
+    margin: 24px;
+    text-align: center;
+} 
+a.button {
+    display: inline-block;
+    background: #008cff;
+    color: #fff;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 100;
+}
 img {
     width: 20%;
     height: 20%;
@@ -57,5 +73,5 @@ a:active {
 	}
 a:hover {
     color: aliceblue;
-	background-color: #0059ff; /* Цвет кнопки при наведении курсора */
+	background-color: #0040af; /* Цвет кнопки при наведении курсора */
 	}
