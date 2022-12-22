@@ -21,6 +21,8 @@
 #news:hover {
     transition: 2s;
     transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 2px;
 }
 #screen {
     height: 40%;
