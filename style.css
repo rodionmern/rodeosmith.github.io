@@ -13,8 +13,12 @@
     align-items: center;
 }
 #news {
+    transition: 1s;
     height: 60%;
     width: 60%;
+}
+#news:hover {
+    transform: scale(1.3);
 }
 #screen {
     height: 40%;
