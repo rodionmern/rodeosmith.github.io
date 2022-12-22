@@ -44,3 +44,18 @@ img {
     width: 20%;
     height: 20%;
 }
+a {
+    color: black;
+    background-color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 42%;
+    padding-left: 42%;
+}
+a:active {
+	background-color: #c8ff00; /* Цвет кнопки при нажатии */
+	}
+a:hover {
+    color: aliceblue;
+	background-color: #0059ff; /* Цвет кнопки при наведении курсора */
+	}
