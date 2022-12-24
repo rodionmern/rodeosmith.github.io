@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 #header {
     text-align: center;
     background-color: rgb(71, 71, 71);
@@ -5,7 +8,7 @@
     height: auto;
 }
 #about {
-    background-color: rgb(112, 112, 112);
+    background-color: rgb(81, 81, 81);
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
@@ -34,7 +37,8 @@
     width: 40%;
 }
 #main {
-    background-color: rgb(166, 166, 166);
+    transition: 1%;
+    background-color: rgb(91, 91, 91);
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -43,7 +47,7 @@
     align-items: center;
 }
 #footer {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(101, 101, 101);
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
