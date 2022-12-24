@@ -52,7 +52,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: auto;   
 }
@@ -80,7 +80,7 @@ img {
     width: 20%;
     height: 20%;
 }
-a {
+.buttonj {
     color: black;
     background-color: aliceblue;
     padding-top: 2%;
@@ -88,10 +88,20 @@ a {
     padding-right: 42%;
     padding-left: 42%;
 }
-a:active {
+.buttonj:active {
 	background-color: #c8ff00; /* Цвет кнопки при нажатии */
 	}
-a:hover {
+.buttonj:hover {
     color: aliceblue;
 	background-color: #0040af; /* Цвет кнопки при наведении курсора */
 	}
+#tg {
+    height: 10%;
+    width: 10%;
+}
+h3 {
+    background-color: rgb(101, 101, 101);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
