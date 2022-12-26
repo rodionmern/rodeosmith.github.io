@@ -1,6 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
+body {
+    margin: 0;
+}
 #header {
     text-align: center;
     background-color: rgb(71, 71, 71);
