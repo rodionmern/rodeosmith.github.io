@@ -4,6 +4,33 @@ html {
 body {
     margin: 0;
 }
+b {
+    color: beige;
+    font-size: large;
+}
+strong {
+    color: bisque;
+    font-size: larger;
+}
+l {
+    color: red;
+}
+#mainflex {
+    display: flex;
+    justify-content: flex-start;
+}
+#flexforwhats {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#what1 {
+}
 #header {
     text-align: center;
     background-color: rgb(71, 71, 71);
