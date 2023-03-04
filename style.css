@@ -1,137 +1,68 @@
-html {
-    scroll-behavior: smooth;
+@media screen and (max-height: 1080px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+        font-size: medium;
+     }
+    * {
+        margin: 0%;
+        padding: 0%;
+     }
+    header {
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+    .icons {
+        margin: 50px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        right: 0%;
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+    img {
+        height: 15%;
+        width: 15%;
+    }
 }
-body {
-    margin: 0;
-}
-b {
-    color: beige;
-    font-size: large;
-}
-strong {
-    color: bisque;
-    font-size: larger;
-}
-l {
-    color: red;
-}
-#mainflex {
-    display: flex;
-    justify-content: flex-start;
-}
-#flexforwhats {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-#what1 {
-}
-#header {
-    text-align: center;
-    background-color: rgb(71, 71, 71);
-    width: 100%;
-    height: auto;
-}
-#about {
-    background-color: rgb(81, 81, 81);
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#what {
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-#news {
-    transition: 1s;
-    transform: scale(1);
-    height: 60%;
-    width: 60%;
-}
-#news:hover {
-    transition: 2s;
-    transform: scale(1.2);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    padding: 2px;
-}
-#screen {
-    height: 40%;
-    width: 40%;
-}
-#main {
-    transition: 1%;
-    background-color: rgb(91, 91, 91);
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#footer {
-    background-color: rgb(101, 101, 101);
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;   
-}
-#buttonj {
-    margin: 24px;
-    text-align: center;
-} 
-#what {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-a.button {
-    display: inline-block;
-    background: #008cff;
-    color: #fff;
-    padding: 12px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-family: Tahoma;
-    font-size: 18px;
-    line-height: 1;
-    font-weight: 100;
-}
-img {
-    width: 20%;
-    height: 20%;
-}
-.buttonj {
-    color: black;
-    background-color: aliceblue;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 42%;
-    padding-left: 42%;
-}
-.buttonj:active {
-	background-color: #c8ff00; /* Цвет кнопки при нажатии */
-	}
-.buttonj:hover {
-    color: aliceblue;
-	background-color: #0040af; /* Цвет кнопки при наведении курсора */
-	}
-#tg {
-    height: 10%;
-    width: 10%;
-}
-h3 {
-    background-color: rgb(101, 101, 101);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media screen and (max-height: 662px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+        font-size: small;
+     }
+    * {
+        margin: 0%;
+        padding: 0%;
+     }
+    header {
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+    .icons {
+        margin: 50px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        right: 0%;
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+    img {
+        height: 5%;
+        width: 5%;
+    }
+ }
