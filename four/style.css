@@ -28,6 +28,16 @@ header {
     background-color: rgb(44, 44, 44);
     border-radius: 10px;
 }
+.header {
+    display: flex;
+    justify-content: center;
+
+    height: auto;
+    width: 700px;
+
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+}
 .onereason {
     display: flex;
     justify-content: center;
