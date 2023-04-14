@@ -1,0 +1,9 @@
+body {
+	background-color: rgb(255, 255, 255);
+}
+.logotype {
+	background-color: black;
+	border-radius: 50px;
+	width: 15%;
+	height: 15%;
+}
