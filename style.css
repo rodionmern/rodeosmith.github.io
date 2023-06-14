@@ -16,7 +16,12 @@ h1 {
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
-a {
+#click_to_site {
+    color: rgb(224, 222, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+#click_to_social {
     color: rgb(224, 222, 255);
     font-size: 20px;
     text-decoration: none;
