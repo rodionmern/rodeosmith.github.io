@@ -34,5 +34,14 @@ a {
 img {
     height: 50%;
     width: 50%;
-    border-radius: 110px;
+}
+
+.social {
+    height: 50px;
+    width: 50px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-evenly;
 }
