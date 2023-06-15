@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: url(font/unbouded.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Unbounded';
+}
+
+.logotype {
+	width: 10%;
+	height: 10%;
+	border-radius: 100px 100px 15px 100px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	background-color: #404040;
+}
+
+body {
+	background-color: #4d4d4d;
+}
+
+.get {
+	color: white;
+	text-align:  center;
+	font-size: 20px;
+	padding: 40px;
+}
+
+.button_get {
+	padding: 15px;
+	background-color: #008000;
+	color: #ffffff;
+	border-radius: 10px;
+
+	cursor: copy;
+	text-decoration: none;
+}
+.nevvs {
+	display: flex;
+	justify-content: space-beetwen;
+	align-items: center;
+}
+.update {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	text-align: center;
+
+	height: 200px;
+	width: 500px;
+
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	color: #ffffff;
+	background-color: #404040;
+	border-radius: 15px;
+}
