@@ -13,8 +13,6 @@ body {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
@@ -29,6 +27,11 @@ h2 {
 }
 
 header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: rgb(42, 42, 42);
 }
 
