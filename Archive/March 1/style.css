@@ -1,0 +1,85 @@
+@media screen and (max-height: 1080px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+     }
+    * {
+        margin: 0%;
+        padding: 0%;
+     }
+    header {
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+    .icons {
+        margin: 50px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        right: 0%;
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+}
+@media screen and (max-height: 662px) {
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+     }
+    * {
+        margin: 0%;
+        padding: 0%;
+     }
+    header {
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+    .icons {
+        margin: 50px;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0%;
+        right: 0%;
+        background: url("background.jpg") no-repeat;
+        background-size: cover;
+        text-align: center;
+     }
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+ }
+* {
+    margin: 0%;
+    padding: 0%;
+ }
+header {
+    background: url("background.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+ }
+.icons {
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    background: url("background.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+ }
