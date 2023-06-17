@@ -53,6 +53,11 @@ footer {
     font-size: 20px;
     text-decoration: none;
 }
+#click_to_site:hover {
+    color: blue;
+    font-size: 22px;
+    text-decoration: none;
+}
 #click_to_social {
     color: rgb(224, 222, 255);
     font-size: 20px;
@@ -63,12 +68,19 @@ footer {
     width: ;
 }
 .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     padding-bottom: 90px;
 }
 .section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    padding: 10px;
 }
 .section_1 {
     display: flex;
