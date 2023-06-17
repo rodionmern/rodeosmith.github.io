@@ -1,0 +1,64 @@
+.header{
+    width: 100%;
+    height: 15%;
+    background-color: #25B33f;
+    margin-bottom: 10px;
+  }
+
+.portfolio_text {
+    vertical-align: center;
+    color: black;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+}
+
+a {
+    vertical-align: center;
+    color: rgb(47, 0, 255);
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    vertical-align: center;
+    color: aliceblue;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+}
+
+.page-content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+   .footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background-color: #25B33f;
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+
+.logo {
+    display:block;
+    margin:auto;
+}
+
+.img {
+    display:block;
+    margin:auto;
+    height: 10%;
+    width: 10%;
+}
+
+.design {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+.site {
+    margin-top: 5%;
+    text-align: center;
+}
