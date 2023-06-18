@@ -29,7 +29,7 @@ h2 {
 }
 
 header {
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,6 +38,8 @@ header {
 }
 
 footer {
+    height: 80px;
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -67,6 +69,15 @@ footer {
     color: rgb(224, 222, 255);
     font-size: 20px;
     text-decoration: none;
+}
+
+#click_to_animation {
+    color: rgb(224, 222, 255);
+    height: 80px;
+    width: 80px;
+    text-decoration: none;
+
+    
 }
 
 .click_to_s1te {
