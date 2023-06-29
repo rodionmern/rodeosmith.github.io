@@ -1,4 +1,4 @@
-# https://rodeosmith.github.io
+# https://rodeosmith.github.io/index.html
 
 🇷🇺 - Русский
 
