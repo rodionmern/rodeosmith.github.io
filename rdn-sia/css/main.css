@@ -1,0 +1,44 @@
+
+@font-face {
+    font-family: 'RodionFirst';
+    src: url(fonts/LexingtonC.ttf);
+}
+
+@font-face {
+    font-family: 'RodionSecond';
+    src: url(fonts/Triton-Modern.ttf);
+}
+
+@font-face {
+    font-family: 'RodionThird';
+    src: url(fonts/Literature-Decor.ttf);
+}
+
+* {
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.main {
+
+    background-color: rgb(255, 255, 255);
+
+    height: 800px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: 'RodionThird';
+
+}
+
+    .block {
+
+        
+
+    }
