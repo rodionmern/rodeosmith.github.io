@@ -1,0 +1,48 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+header {
+
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(107, 78, 103);
+
+}
+
+    .logo {
+
+        transition: height 0.5s;
+        transition: width 0.5s;
+
+        height: 80px;
+        width: 80px;
+
+    }
+
+    .logo:hover {
+
+        transition: height 1s;
+        transition: width 0.5s;
+
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .logo:active {
+
+        transition: height 1s;
+        transition: width 0.5s;
+
+        height: 50px;
+        width: 50px;
+
+    }
