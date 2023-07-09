@@ -1,0 +1,38 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+h1 {
+
+    color: rgb(206, 206, 255);
+    font-family: "Roboto", sans-serif;
+
+}
+
+.your_block {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 60%;
+    width: 60%;
+
+    background-color: indigo;
+
+    border-radius: 15px;
+
+}
