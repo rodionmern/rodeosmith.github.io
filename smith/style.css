@@ -1,0 +1,22 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.header{
+
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Unbounded;
+
+    color: aliceblue;
+    background-color: black;
+
+}
